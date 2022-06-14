@@ -31,4 +31,9 @@
   (fp_line (start 0.4 -0.4) (end 0.4 0.4) (layer "F.Fab") (width 0.1) (tstamp aa052bec-73c6-4098-a3a0-f45733c6a0cb))
   (pad "1" smd rect (at -1.1755 0) (size 2.67 2.54) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a8dec2e9-8881-424f-a7f1-0f262147ca41))
   (pad "2" smd rect (at 1.1755 0) (size 0.762 1.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c14bd6ab-6e5c-4ea8-b85e-bd10da9f1794))
+  (model "${KICAD_USER_3DMODEL_DIR}/Diode_SMT.3dshapes/D_SMP.step"
+    (offset (xyz -0.4 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
