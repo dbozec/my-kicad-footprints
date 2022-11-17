@@ -54,7 +54,7 @@
   (pad "R" thru_hole oval (at 4.8 2 270) (size 2 1.4) (drill oval 1.2 0.6) (layers *.Cu *.Mask) (tstamp 280cf270-3db1-4b5e-bb63-74eb059169cd))
   (pad "S" thru_hole oval (at 0 0 270) (size 2 1.4) (drill oval 1.2 0.6) (layers *.Cu *.Mask) (tstamp a448b495-9a68-4c12-afde-dea6ae66f53c))
   (pad "T" thru_hole oval (at 0 7 270) (size 2 1.4) (drill oval 1.2 0.6) (layers *.Cu *.Mask) (tstamp 37fb7215-fa31-4377-be9a-94b30969f6cf))
-  (model "${KICAD_USER_3DMODEL_DIR}/Audio_Connector.3dshapes/Jack_3.5mm_PJ320F_Horizontal.step"
+  (model "${KICAD_USER_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_PJ320F_Horizontal.step"
     (offset (xyz 2.4 -3.55 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
