@@ -49,7 +49,7 @@
   (pad "R7" thru_hole circle (at 7.62 0) (size 1.9 1.9) (drill 0.9) (layers *.Cu *.Mask) (tstamp d93d30c2-35fb-434c-a82d-d583066fc83d))
   (pad "R8" thru_hole circle (at 8.89 -2.54) (size 1.9 1.9) (drill 0.9) (layers *.Cu *.Mask) (tstamp df23d44a-7a80-4775-875f-744a84f07092))
   (model "${KICAD_USER_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJMG1BD3B8K1ANR.stp"
-    (offset (xyz 4.4 -6.4 6.5))
+    (offset (xyz 4.45 -17.2 6.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
