@@ -57,4 +57,9 @@
     (thermal_bridge_angle 45) (tstamp 9b1a8cf4-60bf-4654-87e2-c05eed34246f))
   (pad "6" smd rect (at 2.5 -2.75) (size 1.2 2.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp e34f9f99-776a-44f9-9ccf-16cde3be424a))
+  (model "${KICAD_USER_3DMODEL_DIR}/Switch_SMD.3dshapes/SW_DPDT_Slide_CK_JS202011SCQN.stp"
+    (offset (xyz 0 0 0.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
