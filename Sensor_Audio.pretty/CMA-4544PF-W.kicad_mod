@@ -21,7 +21,7 @@
   )
   (fp_circle (center 0 0) (end 4.875 0)
     (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp a0a75775-dfd3-42bc-b732-dee47b11ce0e))
-  (pad "1" thru_hole circle (at 1.27 -2) (size 1.8 1.8) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 4d3082b6-b903-4dff-9466-bd65b958219d))
+  (pad "1" thru_hole rect (at 1.27 -2) (size 1.8 1.8) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 4d3082b6-b903-4dff-9466-bd65b958219d))
   (pad "2" thru_hole circle (at -1.27 -2) (size 1.8 1.8) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 37f6e4a6-215e-4438-8d79-ed91fa9ee886))
   (model "${KICAD_USER_3DMODEL_DIR}/Sensor_Audio.3dshapes/CUI_DEVICES_CMA-4544PF-W.step"
     (offset (xyz 0 0 0))
