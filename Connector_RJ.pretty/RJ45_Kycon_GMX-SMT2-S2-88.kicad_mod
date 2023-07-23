@@ -41,9 +41,9 @@
     (thermal_bridge_angle 45) (tstamp 86e24beb-198a-4017-91ba-0254ae53067d))
   (pad "8" smd rect (at -4.445 0) (size 0.76 3.185) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 6fe7bb86-ab59-4f7a-a21e-0e2727f1677a))
-  (pad "9" smd rect (at -8.175 -14.57) (size 3.12 2.54) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "SH" smd rect (at -8.175 -14.57) (size 3.12 2.54) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp dccab07d-5545-4efb-b692-2547deb9a245))
-  (pad "9" smd rect (at 8.175 -14.57) (size 3.12 2.54) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "SH" smd rect (at 8.175 -14.57) (size 3.12 2.54) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp c07617ae-7b08-4986-8494-a8a13571ce98))
   (model "${KICAD_USER_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Kycon_GMX-SMT2-S2-88.stp"
     (offset (xyz 0 19.5 0))
