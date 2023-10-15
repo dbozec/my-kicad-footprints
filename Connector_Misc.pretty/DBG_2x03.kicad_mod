@@ -1,6 +1,6 @@
 (footprint "DBG_2x03" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
+  (attr smd exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 -5.08 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 001a66b5-c9fa-492f-8d69-8d5f9e76d64d)
