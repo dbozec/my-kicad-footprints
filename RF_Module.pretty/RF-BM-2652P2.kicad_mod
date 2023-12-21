@@ -170,4 +170,9 @@
       )
     )
   )
+  (model "${KICAD_USER_3DMODEL_DIR}/RF_Module.3dshapes/RF-BM-2652P2.stp"
+    (offset (xyz -8.2 -14.9 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
