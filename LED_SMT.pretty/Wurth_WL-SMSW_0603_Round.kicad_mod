@@ -1,0 +1,162 @@
+(footprint "Wurth_WL-SMSW_0603_Round"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Wurth WL-SMSW SMT Mono-color Side View Waterclear 0603 Round LED")
+	(tags "LED, Side-View")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5df75aa3-b794-41c2-a0b0-1d53e8168dfa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Wurth_WL-SMSW_0603_Round"
+		(at 0 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d795ed3e-a276-459d-b7ba-fcb213f227e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "982323ff-4d25-42ed-81e6-b6189ff40060")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bf12b6f-2250-4a43-ad9a-080d6216f988")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11dedbf2-8c5f-41c8-9c49-70e0c025b69a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1176 -0.2286)
+		(end -1.1176 0.3556)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29384d7f-1d58-4225-b041-fa8da3e7a244")
+	)
+	(fp_line
+		(start -1.1176 0.3556)
+		(end -0.381 0.3556)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e6da209-b9db-47ec-ac60-463e7efa38b0")
+	)
+	(fp_rect
+		(start -0.8 -0.24)
+		(end 0.8 0.14)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "66aeb071-4ddf-49a8-897b-8cab216f8c19")
+	)
+	(fp_arc
+		(start -0.55 -0.24)
+		(mid 0 -0.79)
+		(end 0.55 -0.24)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6add920f-2c60-47fc-b76e-06cbac6e3f2a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "41466cd8-3c9e-4b61-99e3-65db95f02b2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 0.25)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "45ff48b4-322c-48db-a5d7-363bbf09d2a3")
+	)
+	(pad "1" smd rect
+		(at -0.7 -0.05)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b0abfc1e-be14-457b-979a-4c55e4019da7")
+	)
+	(pad "2" smd rect
+		(at 0.7 -0.05)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8e631cc8-f868-4553-b4db-a34f5571fa0b")
+	)
+	(group ""
+		(uuid "6ed36ec2-4913-446c-b1c6-dcccf76d257a")
+		(members "66aeb071-4ddf-49a8-897b-8cab216f8c19" "6add920f-2c60-47fc-b76e-06cbac6e3f2a")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/LED_SMT.3dshapes/Wurth_WL-SMSW_0603_Round.stp"
+		(offset
+			(xyz 0 -0.15 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 90)
+		)
+	)
+)
