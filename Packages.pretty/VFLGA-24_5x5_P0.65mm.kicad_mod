@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 16.1036 0)
+		(at 0 3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d78c27b9-ba76-4b21-9e5a-286fca98cbe5")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "VFLGA-24_5x5_P0.65mm"
-		(at 0 17.6036 0)
+		(at 0 5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1f13bf97-2415-4f37-ba06-7bfaf02b22a6")
@@ -66,7 +66,7 @@
 		(uuid "34936ef4-7eae-481d-a596-aeaf56a92885")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 19.1036 0)
+		(at 0 6.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "805f0139-e768-4508-ac98-bc29018467a6")
@@ -318,4 +318,15 @@
 		(uuid "f652ea74-c73e-4fe6-8876-fda689d8dd6a")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Packages.3dshapes/VFLGA-24_5x5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
