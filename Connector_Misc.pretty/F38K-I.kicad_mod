@@ -1,0 +1,132 @@
+(footprint "F38K-I"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Miniature PCB Thermocouple Socket - Side Mounting")
+	(property "Reference" "REF**"
+		(at 12.9 -0.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b1cc9c2c-9f7b-4cf9-bfda-5de6526caad6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "F38K-I"
+		(at -8.2 -0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "afb7d2e8-5d17-4094-8a82-82452790d82c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2e26ab8-0fad-4dd9-9efb-bb0cc0ddaae3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "861e6d11-f9ca-4f96-a465-f2eccc19cf78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -14.8 -5.3)
+		(end 10.7 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "24fcd3e5-62c4-4de0-9df2-f0952c264b17")
+	)
+	(fp_rect
+		(start -14.6 -5.1)
+		(end 10.5 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "86528da4-aa04-4999-8e4b-0411e09bb62f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -8.2 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d6d7898-eb3c-40d2-aff4-ccfaeb5fd36a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -0.05 2.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7db1ee8a-0068-4400-b076-a5d233e7a50a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c574e8e8-9541-4791-96c4-ac640acb9cf6")
+	)
+	(pad "2" thru_hole circle
+		(at 4 0)
+		(size 3.2 3.2)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "341c8720-b6b6-4d67-ae74-a8dc87698ef2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Connector_Misc.3dshapes/F38K-I.step"
+		(offset
+			(xyz -14.45 4.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
