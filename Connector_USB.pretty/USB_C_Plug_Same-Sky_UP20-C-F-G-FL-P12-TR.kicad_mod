@@ -1,0 +1,216 @@
+(footprint "USB_C_Plug_Same-Sky_UP20-C-F-G-FL-P12-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d1cf2ad-b869-4951-9ded-d8ea0d7e5905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_C_Plug_Same-Sky_UP20-C-F-G-FL-P12-TR"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "efe91979-bd2b-4f90-9af5-07a647ddfdd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sameskydevices.com/product/resource/up20-c-f-g-fl-p12-tr.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb114349-3c54-4ce9-9059-1d61cc590086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9856e16f-dbd4-4e72-ab39-448eead49923")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.25 0)
+		(end 3.25 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8e70f833-722f-4384-8f07-980f17ae0a00")
+	)
+	(fp_rect
+		(start -4.125 -2.8)
+		(end 4.125 10.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aa7efe6c-bd2c-42e3-a265-dc6aa18c6fce")
+	)
+	(fp_text user "PCB Edge"
+		(at -2 1 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "020bbe32-39ba-4410-8499-24a562b67de5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "062ca241-8fff-4c00-ae8c-bd161055a90f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A1" smd rect
+		(at 2.75 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dcfd6759-1d51-4ed1-9039-8faff9047c62")
+	)
+	(pad "A2" smd rect
+		(at 2.25 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0136a3f2-bd14-4d29-9ada-4dcbef8dd453")
+	)
+	(pad "A3" smd rect
+		(at 1.75 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "29abdb79-a8ae-49eb-9321-2d2edc8bb2cd")
+	)
+	(pad "A4" smd rect
+		(at 1.25 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6a12728b-0ed8-48de-8c81-9995ca3539b1")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7adf2182-bcb8-4036-adcd-0a3e2c6d61c5")
+	)
+	(pad "A6" smd rect
+		(at -1.75 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5b905e2a-36fb-43e4-a5de-6e829f3f5b9b")
+	)
+	(pad "A7" smd rect
+		(at -2.25 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8fb1f8a-f11a-4ccd-a734-47e9e533b1ca")
+	)
+	(pad "A12" smd rect
+		(at -2.75 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e776ebd6-6aae-4110-96ac-300b1e2562cb")
+	)
+	(pad "B9" smd rect
+		(at -0.75 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69a94c44-fe5d-4dc9-a073-856e655247d5")
+	)
+	(pad "B10" smd rect
+		(at -0.25 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "924f7a6c-43f8-4b4b-bc00-ddad21ace6d2")
+	)
+	(pad "B11" smd rect
+		(at 0.25 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a4d24472-5b79-4404-8b71-d4501eb8b0db")
+	)
+	(pad "B12" smd rect
+		(at 0.75 -1.56)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c95bab6-c2a6-4813-966b-71e10302cb45")
+	)
+	(pad "S1" thru_hole oval
+		(at -4.3 -1.4)
+		(size 0.85 2.25)
+		(drill oval 0.45 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34c54c50-f4fe-4ec8-9f57-6f8cbd9ccecf")
+	)
+	(pad "S1" smd rect
+		(at -4.008 -0.75)
+		(size 1.43 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "9a871b68-7906-40f4-a5ee-72a2d6a05e19")
+	)
+	(pad "S1" smd rect
+		(at 4.008 -0.75)
+		(size 1.43 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e6ceb233-c9b1-4f98-a3c0-af6981625aee")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.3 -1.4)
+		(size 0.85 2.25)
+		(drill oval 0.45 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4aa5dbc6-2dac-4765-9d11-0d24c8d38cdd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Plug_Same-Sky_UP20-C-F-G-FL-P12-TR.step"
+		(offset
+			(xyz 0 -4.6 1.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
